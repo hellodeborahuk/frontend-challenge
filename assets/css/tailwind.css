@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .button {
+        @apply capitalize text-brand-alpha text-base font-bold leading-[20px] px-5 py-1 border-[3px] border-brand-alpha rounded-[30px]
+    }
+}
