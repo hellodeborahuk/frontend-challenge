@@ -1,6 +1,6 @@
 <template>
     <h2 class="text-[27px] font-bold text-center my-[119px]">Blogs</h2>
-    <div class="grid grid-cols-3 gap-20 max-w-6xl mx-auto">
+    <div class="grid grid-cols-3 gap-20 max-w-6xl mx-auto mb-[150px]">
         <div class="relative">
             <div class="relative h-[256px]" :style="{background: `linear-gradient(0deg, rgba(123, 123, 123, 0.772057) 23.4%, rgba(157, 157, 157, 0.70918) 43.87%, rgba(217, 217, 217, 0) 63%), center center / cover no-repeat url(/blog1.png);`}">
                 <h3 class="absolute px-10 bottom-10 text-white text-lg font-bold">How to build a cash reserve in your MSP business</h3>

@@ -18,6 +18,7 @@ export default {
         'brand-beta': '#EF4D23',
         'brand-charlie': '#F3F3F3EE',
         'brand-delta': '#D9D9D9',
+        'brand-echo': '#053F50',
       }
     },
   },
