@@ -4,15 +4,10 @@
             <div class="grid grid-cols-3 pt-28 text-white items-center border-b border-white pb-[30px] mb-[127px]">
                 <img src="/logo.png" alt="logo" loading="lazy" class="justify-self-start w-[199px]"/>
                 <nav class="justify-self-center space-x-6 text-[19px] font-bold leading-[25.5px]">
-                    <a href="/">About</a>
-                    <a href="/">How we work</a>
-                    <a href="/">Blog</a>
+                    <a v-for="item in footerNav" :key="item.name" :href="item.href">{{item.name}}</a>
                 </nav>
                 <div class="justify-self-end flex gap-[11px]">
-                    <a href="www.facebook.com"><img src="/facebook.png" alt="facebook" /></a>
-                    <a href="www.linkedin.com"><img src="/linkedin.png" alt="linkedin" /></a>
-                    <a href="www.twitter.com"><img src="/twitter.png" alt="twitter" /></a>
-                    <a href="www.instagram.com"><img src="/instagram.png" alt="instagram" /></a>
+                    <a v-for="item in socialIcons" :key="item.name" :href="item.href"><img :src="item.src" :alt="item.name" /></a>
                 </div>
             </div>
             <div class="text-white text-[14px] pb-[47px]">
@@ -28,3 +23,17 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    const footerNav = [
+        { 'name': 'About', 'href': '/'},
+        { 'name': 'How we work', 'href': '/'},
+        { 'name': 'Blog', 'href': '/'},
+    ]
+    const socialIcons = [
+        { 'name': 'facebook', 'href': 'www.facebook.com', 'src': '/facebook.png'},
+        { 'name': 'linkedin', 'href': 'www.linkedin.com', 'src': '/linkedin.png'},
+        { 'name': 'twitter', 'href': 'www.twitter.com', 'src': '/twitter.png'},
+        { 'name': 'instagram', 'href': 'www.instagram.com', 'src': '/instagram.png'}
+    ]
+</script>
