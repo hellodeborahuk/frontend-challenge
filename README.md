@@ -33,7 +33,7 @@ Time taken: 1 hour 13 minutes
 
 Time estimate - 45 minutes
 
-Time taken - 34 mins
+Time taken - 38 mins
 
 - tried installing Oh Vue Icons but the icons weren't the same. 
 
