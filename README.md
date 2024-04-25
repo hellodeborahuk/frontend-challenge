@@ -20,6 +20,11 @@ Time taken: 1 hour 13 minutes
 
 Time estimate - 45 minutes
 
-Time taken - 
+Time taken - 33:44
 
 - tried installing Oh Vue Icons but the icons weren't the same. 
+
+
+## Other notes
+
+- Desktop designs only so this isn't responsive
