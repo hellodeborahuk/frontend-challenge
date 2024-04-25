@@ -16,3 +16,10 @@ Time estimate - 1 hour (it's a card that you can reuse)
 
 Time taken: 1 hour 13 minutes
 
+## Footer
+
+Time estimate - 45 minutes
+
+Time taken - 
+
+- tried installing Oh Vue Icons but the icons weren't the same. 
